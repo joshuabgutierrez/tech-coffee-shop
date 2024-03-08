@@ -2,7 +2,7 @@
 const currentPath = window.location.pathname;
 const navlinks = document.querySelectorAll(".nav-link");
 
-if(window.location.pathname === '/index.html') {
+if(window.location.pathname === '/index.html' || window.location.pathname === '/') {
     // Homepage gallery
     fetch('gallery.json')
     .then(response => {
