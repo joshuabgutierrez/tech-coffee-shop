@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "images/gallery_1.jpg",
+        "image": "./images/gallery_1.jpg",
         "title": "Beatiful Place",
         "content": "Discover the charm of our beautifully designed coffee haven, where every corner is a blend of comfort and style - tailored for your relaxation and enjoyment.",
         "alt": "A variety of coffee brewing equipment, including a milk pitcher, a coffee pot, and espresso shots, laid out on a wooden table."
