@@ -28,7 +28,7 @@ a {
 }
 
 #homepage-banner {
-    background: url(./myotherimages/home_banner.jpg);
+    background: url(../myotherimages/home_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -135,10 +135,6 @@ a {
 #menu-section {
     width: 100%;
 }
-
-
-
-
 
 .footer {
     margin-top: auto;
