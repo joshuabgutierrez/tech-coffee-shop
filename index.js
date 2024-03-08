@@ -2,7 +2,7 @@
 const currentPath = window.location.pathname;
 const navlinks = document.querySelectorAll(".nav-link");
 
-if(window.location.pathname === '/index.html' || window.location.pathname === '/') {
+if(window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/tech-coffee-shop/' || window.location.pathname === '/tech-coffee-shop/index.html') {
     // Homepage gallery
     fetch('gallery.json')
     .then(response => {
@@ -39,7 +39,7 @@ if(window.location.pathname === '/index.html' || window.location.pathname === '/
     }
 };
 
-if (window.location.pathname === '/menu.html') {
+if (window.location.pathname === '/menu.html' || window.location.pathname === '/tech-coffee-shop/menu.html') {
     // Menu functionality
 fetch("data.json")
 .then(response => {
